@@ -62,7 +62,7 @@ class LoginViewController: BaseViewController {
         super.viewDidLoad()
         self.navigationController?.isNavigationBarHidden = true
         hideKeyboardWhenTappedAround()
-//        try? VideoBackground.shared.play(view: imageBackground, videoName: "swap-face", videoType: "mp4")
+        try? VideoBackground.shared.play(view: imageBackground, videoName: "swap-face", videoType: "mp4")
         
         let tap = UITapGestureRecognizer(target: self, action: #selector(tapLabelLisAccountLogin(tap:)))
         oldLoginLabel.addGestureRecognizer(tap)
