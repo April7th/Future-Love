@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="32700.99.1234" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -67,16 +67,16 @@
                             </userDefinedRuntimeAttributes>
                         </imageView>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="O32-cu-hpS">
-                            <rect key="frame" x="46" y="5" width="297" height="154"/>
+                            <rect key="frame" x="46" y="5" width="297" height="150"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="User name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D7x-s7-e6C">
-                                    <rect key="frame" x="8" y="5" width="284" height="16.333333333333332"/>
+                                    <rect key="frame" x="8" y="5" width="284" height="18.666666666666668"/>
                                     <fontDescription key="fontDescription" name="RobotoSlab-Medium" family="Roboto Slab" pointSize="14"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yrr-EK-6oZ">
-                                    <rect key="frame" x="8" y="26.333333333333329" width="284" height="14"/>
+                                    <rect key="frame" x="8" y="28.666666666666671" width="284" height="16"/>
                                     <fontDescription key="fontDescription" name="RobotoSlab-Regular" family="Roboto Slab" pointSize="12"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
@@ -100,19 +100,19 @@
                             </userDefinedRuntimeAttributes>
                         </view>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" text="3 min ago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ld5-gp-tvp">
-                            <rect key="frame" x="56" y="167" width="53.333333333333343" height="14"/>
+                            <rect key="frame" x="56" y="163" width="55.666666666666657" height="16"/>
                             <fontDescription key="fontDescription" name="RobotoSlab-Medium" family="Roboto Slab" pointSize="12"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="3 min ago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kS4-My-wxP">
-                            <rect key="frame" x="119.33333333333336" y="167" width="223.66666666666663" height="14"/>
+                            <rect key="frame" x="121.66666666666664" y="163" width="221.33333333333337" height="16"/>
                             <fontDescription key="fontDescription" name="RobotoSlab-Medium" family="Roboto Slab" pointSize="12"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="3 min ago" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GTn-wZ-91e">
-                            <rect key="frame" x="289.66666666666669" y="186" width="53.333333333333314" height="14"/>
+                            <rect key="frame" x="287.33333333333331" y="184" width="55.666666666666686" height="16"/>
                             <fontDescription key="fontDescription" name="RobotoSlab-Medium" family="Roboto Slab" pointSize="12"/>
                             <nil key="textColor"/>
                             <nil key="highlightedColor"/>
@@ -162,7 +162,7 @@
                     <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                 </textView>
                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="azA-j3-j6Z">
-                    <rect key="frame" x="50" y="787" width="293" height="45"/>
+                    <rect key="frame" x="50" y="753" width="293" height="45"/>
                     <color key="backgroundColor" systemColor="systemYellowColor"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="45" id="RoB-p6-f1y"/>
@@ -208,7 +208,7 @@
         <image name="luonsong" width="1601" height="909"/>
         <image name="luonsong2" width="1755" height="886"/>
         <systemColor name="labelColor">
-            <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
