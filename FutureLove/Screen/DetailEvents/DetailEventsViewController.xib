@@ -63,7 +63,7 @@
                                             </connections>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XdI-jU-AKq">
-                                            <rect key="frame" x="169.33333333333331" y="6.6666666666666732" width="51.666666666666686" height="26.666666666666671"/>
+                                            <rect key="frame" x="169.33333333333334" y="6.6666666666666732" width="51.666666666666657" height="26.666666666666671"/>
                                             <fontDescription key="fontDescription" name="RobotoSlab-Bold" family="Roboto Slab" pointSize="20"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
